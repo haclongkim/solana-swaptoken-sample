@@ -1,4 +1,4 @@
-## Prerequisite (use make command to setup)
+## Prerequisite (can use make command to setup)
 
 - Install nvm
 - Install node (v16 recommended)

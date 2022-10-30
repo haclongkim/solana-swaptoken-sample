@@ -85,3 +85,5 @@ Done in 17.38s.
 ## Issues
 - Contract copy trên mạng, cấu trúc code đang không phù hợp với anchor nên không generate được IDL file, tương ứng với việc không chạy được `anchor test`
 - Chưa làm hoàn chỉnh giao diện
+
+![image](https://raw.githubusercontent.com/haclongkim/solana-swaptoken-sample/master/Screenshot_15.png)

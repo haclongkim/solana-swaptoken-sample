@@ -38,7 +38,7 @@ export async function establishConnection(): Promise<void> {
   const rpcUrl = await getRpcUrl();
   connection = new Connection(rpcUrl, "confirmed");
   const version = await connection.getVersion();
-  console.log("Connection to cluster established:", rpcUrl, version);
+  console.log("Connection to cluster established:", rpcUrl, " Version: ", version);
 }
 
 export async function establishPayer(): Promise<void> {
@@ -122,7 +122,7 @@ export async function checkProgramHashBeenDeployed(): Promise<void> {
   } else if (!programInfo.executable) {
     throw new Error(`Program is not executable`);
   }
-  console.log(programInfo);
+
   console.log(`Using program ${programId.toBase58()}`);
 }
 
